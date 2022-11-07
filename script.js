@@ -1,4 +1,5 @@
-document.getElementById("div1").style.backgroundColor = RandColor();
+// document.getElementById("div1").style.backgroundColor = RandColor();
+document.getElementById("div1").innerHTML = "Hello World";
 
 function RandColor() {
     var rand = Math.floor(Math.random() * 10);
