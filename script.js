@@ -1,3 +1,5 @@
+
+
 function RandColor() {
     var rand = Math.floor(Math.random() * 10);
     if (rand==0) {
