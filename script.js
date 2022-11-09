@@ -24,6 +24,9 @@ function CheckColors() {
     {
         document.getElementById("div4").innerHTML = "The colors are all the same!";
     }
+    else {
+        document.getElementById("div4").innerHTML = "4";
+    }
 }
 
 function Randomize() {
