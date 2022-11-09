@@ -5,6 +5,13 @@ document.getElementById("div4").style.backgroundColor = RandColor();
 
 document.getElementById("div1").innerHTML = "Hello World";
 
+function Randomize() {
+    document.getElementById("div1").style.backgroundColor = RandColor();
+    document.getElementById("div2").style.backgroundColor = RandColor();
+    document.getElementById("div3").style.backgroundColor = RandColor();
+    document.getElementById("div4").style.backgroundColor = RandColor();
+}
+
 function RandColor() {
     var rand = Math.floor(Math.random() * 10);
     if (rand==0) {
