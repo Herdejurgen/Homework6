@@ -6,6 +6,14 @@ document.getElementById("div4").style.backgroundColor = RandColor();
 document.getElementById("div1").innerHTML = "Hello World";
 CheckColors();
 
+function Blue() {
+    document.getElementById("div1").style.backgroundColor = "blue";
+    document.getElementById("div2").style.backgroundColor = "blue";
+    document.getElementById("div3").style.backgroundColor = "blue";
+    document.getElementById("div4").style.backgroundColor = "blue";
+    CheckColors();
+}
+
 function CheckColors() {
     if (document.getElementById("div1").style.backgroundColor == document.getElementById("div2").style.backgroundColor && document.getElementById("div2").style.backgroundColor == document.getElementById("div3").style.backgroundColor && document.getElementById("div3").style.backgroundColor == document.getElementById("div4").style.backgroundColor)
     {
