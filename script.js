@@ -18,6 +18,7 @@ function Randomize() {
     document.getElementById("div2").style.backgroundColor = RandColor();
     document.getElementById("div3").style.backgroundColor = RandColor();
     document.getElementById("div4").style.backgroundColor = RandColor();
+    CheckColors();
 }
 
 function RandColor() {
