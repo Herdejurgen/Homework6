@@ -4,6 +4,14 @@ document.getElementById("div3").style.backgroundColor = RandColor();
 document.getElementById("div4").style.backgroundColor = RandColor();
 
 document.getElementById("div1").innerHTML = "Hello World";
+CheckColors();
+
+function CheckColors() {
+    if (document.getElementById("div1").style.backgroundColor == document.getElementById("div1").style.backgroundColor == document.getElementById("div1").style.backgroundColor == document.getElementById("div1").style.backgroundColor)
+    {
+        document.getElementById("div4").innerHTML = "The colors are all the same!";
+    }
+}
 
 function Randomize() {
     document.getElementById("div1").style.backgroundColor = RandColor();
