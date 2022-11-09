@@ -7,7 +7,7 @@ document.getElementById("div1").innerHTML = "Hello World";
 CheckColors();
 
 function CheckColors() {
-    if (document.getElementById("div1").style.backgroundColor == document.getElementById("div1").style.backgroundColor && document.getElementById("div1").style.backgroundColor == document.getElementById("div1").style.backgroundColor && document.getElementById("div1").style.backgroundColor == document.getElementById("div1").style.backgroundColor)
+    if (document.getElementById("div1").style.backgroundColor == document.getElementById("div2").style.backgroundColor && document.getElementById("div2").style.backgroundColor == document.getElementById("div3").style.backgroundColor && document.getElementById("div3").style.backgroundColor == document.getElementById("div4").style.backgroundColor)
     {
         document.getElementById("div4").innerHTML = "The colors are all the same!";
     }
