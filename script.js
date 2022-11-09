@@ -6,6 +6,11 @@ document.getElementById("div4").style.backgroundColor = RandColor();
 document.getElementById("div1").innerHTML = "Hello World";
 CheckColors();
 
+function RandRandomize() {    
+    document.getElementById(RandomDiv()).style.backgroundColor = RandColor();
+    CheckColors();
+}
+
 function Blue() {
     document.getElementById("div1").style.backgroundColor = "blue";
     document.getElementById("div2").style.backgroundColor = "blue";
@@ -27,6 +32,22 @@ function Randomize() {
     document.getElementById("div3").style.backgroundColor = RandColor();
     document.getElementById("div4").style.backgroundColor = RandColor();
     CheckColors();
+}
+
+function RandomDiv() {
+    var randr = Math.floor(Math.random() * 4);
+    if (randr == 0) {
+        return "div1";
+    }
+    else if (randr == 1) {
+        return "div2";
+    }
+    else if (randr == 2) {
+        return "div3";
+    }
+    else if (randr == 3) {
+        return "div4";
+    }
 }
 
 function RandColor() {
