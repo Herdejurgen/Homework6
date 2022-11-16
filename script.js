@@ -41,18 +41,6 @@ const data = {
     }]
 };
 
-const config = {
-    type: 'radar',
-    data: data,
-    options: {
-        elements: {
-            line: {
-                borderWidth: 3
-            }
-        }
-    },
-};
-
 new Chart(
     document.getElementById("chart"),
     {
