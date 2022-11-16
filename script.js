@@ -8,6 +8,8 @@ anime({
     easing: 'easeInOutExpo'
 });
 
+https://www.jsdelivr.com/package/npm/chart.js?path=dist
+
 const data = {
     labels: [
         'Eating',
