@@ -8,6 +8,8 @@ anime({
     easing: 'easeInOutExpo'
 });
 
+import { Chart } from 'chart.js/auto'
+
 const data = {
     labels: [
         'Eating',
