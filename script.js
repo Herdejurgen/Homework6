@@ -54,7 +54,7 @@ const config = {
 };
 
 new Chart(
-    document.getElementById('chart'),
+    document.getElementById("chart"),
     {
         type: 'radar',
         data: data,
