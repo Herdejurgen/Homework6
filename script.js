@@ -14,7 +14,7 @@ let choreographer = new Choreographer({
     animations: [
         {
             range: [-1, window.innerWidth / 2],
-            selector: '#box',
+            selector: '#div',
             type: 'change',
             style: 'transform:translateY',
             to: 300,
