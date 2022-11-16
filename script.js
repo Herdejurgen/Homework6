@@ -8,8 +8,6 @@ anime({
     easing: 'easeInOutExpo'
 });
 
-const Choreographer = require('choreographer-js')
-
 let choreographer = new Choreographer({
     animations: [
         {
